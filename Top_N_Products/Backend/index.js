@@ -25,7 +25,7 @@ const postData ={
     "ownerName": "Abhishek",
     "rollNo": "RA2111031010023",
     "ownerEmail": "am3239@srmist.edu.in",
-    "accessCode": "bntKpm"
+    "accessCode": "kJtfKH"
     };
 
 
@@ -41,10 +41,10 @@ axios.post('http://20.244.56.144/test/register', postData)
     // authenticate data
     const authCompanyData ={
         "companyName": "SRMIST-Abhishek",
-        "clientID": "21eb4371-b5a2-463d-a415-d54e6d6aa089",
-        "clientSecret": "sqSLSwsOjBLkFJEv",
+        "clientID": "7305038a-6849-4d82-8399-b8a309608e3e",
+        "clientSecret": "LVoAkTWSjrtiLWiW",
         "ownerName": "Abhishek",
-        "ownerEmail": "am3239@srmist.edu.in",
+        "ownerEmail": "ajadaun883@gmail.com",
         "rollNo": "RA2111031010023"
     }
 
@@ -59,7 +59,7 @@ axios.post('http://20.244.56.144/test/auth', authCompanyData)
 
 
     // authtoken that we received from the server
-const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzEyMTU0OTI3LCJpYXQiOjE3MTIxNTQ2MjcsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjIxZWI0MzcxLWI1YTItNDYzZC1hNDE1LWQ1NGU2ZDZhYTA4OSIsInN1YiI6ImFtMzIzOUBzcm1pc3QuZWR1LmluIn0sImNvbXBhbnlOYW1lIjoiU1JNSVNULUFiaGlzaGVrIiwiY2xpZW50SUQiOiIyMWViNDM3MS1iNWEyLTQ2M2QtYTQxNS1kNTRlNmQ2YWEwODkiLCJjbGllbnRTZWNyZXQiOiJzcVNMU3dzT2pCTGtGSkV2Iiwib3duZXJOYW1lIjoiQWJoaXNoZWsiLCJvd25lckVtYWlsIjoiYW0zMjM5QHNybWlzdC5lZHUuaW4iLCJyb2xsTm8iOiJSQTIxMTEwMzEwMTAwMjMifQ.-1lpRDwI4-SQvRI5LtJZFMh2ztPkNxPwHh5aRMxiJ1c'
+const authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzEyMTU5NzI5LCJpYXQiOjE3MTIxNTk0MjksImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6IjczMDUwMzhhLTY4NDktNGQ4Mi04Mzk5LWI4YTMwOTYwOGUzZSIsInN1YiI6ImFqYWRhdW44ODNAZ21haWwuY29tIn0sImNvbXBhbnlOYW1lIjoiU1JNSVNULUFiaGlzaGVrIiwiY2xpZW50SUQiOiI3MzA1MDM4YS02ODQ5LTRkODItODM5OS1iOGEzMDk2MDhlM2UiLCJjbGllbnRTZWNyZXQiOiJMVm9Ba1RXU2pydGlMV2lXIiwib3duZXJOYW1lIjoiQWJoaXNoZWsiLCJvd25lckVtYWlsIjoiYWphZGF1bjg4M0BnbWFpbC5jb20iLCJyb2xsTm8iOiJSQTIxMTEwMzEwMTAwMjMifQ.7QNA9KagMO8HCzy1esfDL4m4sViMQsylA_vyzT0H76c';
 
 
 axios.get('http://20.244.56.144/test/companies/:companyname/categories/:categoryname/products?top=n&minPrice=p&maxPrice=q',{
